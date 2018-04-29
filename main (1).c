@@ -1,6 +1,7 @@
 /******************************************************************************
 
-Welcome to CongestionSim sub-flow selection based on rating values.
+Welcome to CongestionSim 
+part (iii) -sub-flow selection based on rating values.
 
 *******************************************************************************/
 #include <stdio.h>

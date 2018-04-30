@@ -81,7 +81,7 @@ for k in x.keys():
 
 print "DropRatio=", TotalDroped
 print "Incoming Packets  =", TotalAccepted
-print "Dropped ",(len(T)-TotalAccepted)#/float(len(T))
+#print "Dropped ",(len(T)-TotalAccepted)#/float(len(T))
 print "CHF = ",sum(T)/float(len(T))
 print "Congestion Handling Percentage = ",(TotalCapacity-utilization)*100/float(TotalCapacity)
 print "TotalTimeTaken = ", time.time()-startTime

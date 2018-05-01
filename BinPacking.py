@@ -9,7 +9,7 @@ print " The begin of Bin packing"
 class Bin():
     def __init__(self,id,ram):
         self.id = id
-        self.Maxcapacity = ram
+        self.Maxcapacity = ram #buf proc
         self.Acapacity = self.Maxcapacity
 
 
@@ -82,7 +82,7 @@ for k in x.keys():
 print "DropRatio=", TotalDroped
 print "Incoming Packets  =", TotalAccepted
 #print "Dropped ",(len(T)-TotalAccepted)#/float(len(T))
-print "CHF = ",sum(T)/float(len(T))
+#print "CHF = ",sum(T)/float(len(T))
 print "Congestion Handling Percentage = ",(TotalCapacity-utilization)*100/float(TotalCapacity)
 print "TotalTimeTaken = ", time.time()-startTime
 

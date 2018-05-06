@@ -3,7 +3,7 @@ from random import randint
 import random
 import time
 startTime = time.time()
-print " The begin of Bin packing"
+print " The begin of Filling the Buffer"
 
 
 class Bin():

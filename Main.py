@@ -26,6 +26,7 @@ def toporeader():
         maxexe = maxset(chf)
         nodeOBJ = node(nodeID,chf,ram,maxexe,ExeTime) #chf and ram to process chf
         nodedict[nodeID]=nodeOBJ
+    print nodedict
     return nodedict
 
 def Exectio(chf):
